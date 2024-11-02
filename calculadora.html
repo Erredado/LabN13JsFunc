@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 2: Implementar una Calculadora Simple</title>
+</head>
+<body>
+    <script>
+        function calculdora(a, b, operacion)
+        {
+            switch (operacion)
+            {
+                case "suma":
+                    return calcSuma(a,b);
+                case "resta":
+                    return calcResta(a,b);
+                case "multiplicacion":
+                    return calcMultiplicacion(a,b);
+                case "division":
+                    return calcDivision(a,b);
+            }
+        }
+
+        function calcSuma(a, b)
+        {
+            return a + b;
+        }
+        function calcResta(a, b)
+        {
+            return a - b;
+        }
+        function calcMultiplicacion(a, b)
+        {
+            return a * b;
+        }
+        function calcDivision(a, a)
+        {
+            return a / b;
+        }
+        
+    </script>
+</body>
+</html>
